@@ -16,6 +16,7 @@ app.use(cors({
 import { connectDB } from "./src/config/db.js";
 import authRoutes from "./src/routes/auth.route.js";
 import activityRoutes from "./src/routes/activity.route.js";
+import bookingRoutes from "./src/routes/booking.route.js";
 
 dotenv.config();
 const PORT = process.env.PORT || 3000;
@@ -23,7 +24,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use("/api/auth",authRoutes);
 app.use("/api/activity",activityRoutes);
-
+app.use("/api/bookmyactivity",bookingRoutes);
 
 
 
