@@ -21,6 +21,11 @@ import bookingRoutes from "./src/routes/booking.route.js";
 dotenv.config();
 const PORT = process.env.PORT || 3000;
 
+app.get("/", (req, res) => {
+  res.send(" Activity Booking API is live!");
+});
+
+
 
 app.use("/api/auth",authRoutes);
 app.use("/api/activity",activityRoutes);
