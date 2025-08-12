@@ -32,3 +32,21 @@
 {"level":"info","message":"Server is running on port 3000","service":"Booking-Api","timestamp":"2025-08-12T15:40:15.279Z"}
 {"level":"info","message":"Database connected: ac-3hoxfyu-shard-00-02.c8dwhhe.mongodb.net","service":"Booking-Api","timestamp":"2025-08-12T15:40:24.803Z"}
 {"level":"info","message":"Server is running on port 3000","service":"Booking-Api","timestamp":"2025-08-12T15:40:24.809Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"Booking-Api","timestamp":"2025-08-12T15:55:28.329Z"}
+{"level":"info","message":"Request body: {\"email\":\"arjun21@gmail.com\"}","service":"Booking-Api","timestamp":"2025-08-12T15:55:28.330Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/signup","service":"Booking-Api","timestamp":"2025-08-12T15:56:40.217Z"}
+{"level":"info","message":"Request body: {\"name\":\"Sumant Bhise\",\"email\":\"sb02@gmail.com\",\"phone\":\"9993499999\"}","service":"Booking-Api","timestamp":"2025-08-12T15:56:40.218Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"Booking-Api","timestamp":"2025-08-12T15:57:01.583Z"}
+{"level":"info","message":"Request body: {\"email\":\"sb02@gmail.com\"}","service":"Booking-Api","timestamp":"2025-08-12T15:57:01.583Z"}
+{"level":"info","message":"Recieved GET request to /api/activity/availableactivities","service":"Booking-Api","timestamp":"2025-08-12T15:57:16.323Z"}
+{"level":"info","message":"Recieved GET request to /api/activity/availableactivities/681dfe76007e34b59050b830","service":"Booking-Api","timestamp":"2025-08-12T15:57:31.247Z"}
+{"level":"info","message":"Recieved GET request to /api/bookmyactivity/mybooking","service":"Booking-Api","timestamp":"2025-08-12T15:57:55.381Z"}
+{"level":"info","message":"Recieved POST request to /api/bookmyactivity/booking","service":"Booking-Api","timestamp":"2025-08-12T15:58:07.003Z"}
+{"level":"info","message":"Request body: {\"activityId\":\"681dfe76007e34b59050b830\"}","service":"Booking-Api","timestamp":"2025-08-12T15:58:07.004Z"}
+{"level":"info","message":"Recieved GET request to /api/bookmyactivity/mybooking","service":"Booking-Api","timestamp":"2025-08-12T15:58:18.388Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/logout","service":"Booking-Api","timestamp":"2025-08-12T15:58:29.101Z"}
+{"level":"info","message":"Recieved GET request to /api/activity/availableactivities/681dfe76007e34b59050b830","service":"Booking-Api","timestamp":"2025-08-12T15:58:32.314Z"}
+{"level":"info","message":"Recieved GET request to /api/activity/availableactivities","service":"Booking-Api","timestamp":"2025-08-12T15:58:35.563Z"}
+{"level":"info","message":"Recieved GET request to /api/bookmyactivity/mybooking","service":"Booking-Api","timestamp":"2025-08-12T15:58:39.695Z"}
+{"level":"info","message":"Recieved POST request to /api/bookmyactivity/booking","service":"Booking-Api","timestamp":"2025-08-12T15:58:43.459Z"}
+{"level":"info","message":"Request body: {\"activityId\":\"681dfe76007e34b59050b830\"}","service":"Booking-Api","timestamp":"2025-08-12T15:58:43.460Z"}
