@@ -1,6 +1,7 @@
 import { generateToken } from "../config/utils.js";
 import User from "../models/user.model.js";
 import bcrypt from "bcryptjs";
+import logger from "../config/logger.js";
 
 export const signup = async (req,res)=>{
     const {name,email,password,phone} = req.body;
@@ -42,7 +43,7 @@ export const signup = async (req,res)=>{
 
         
     } catch (error) {
-        console.log("Error in signup controller", error.message);
+        logger.error("Error in signup controller", error.message);
         res.status(500).json({ message: "Server error" });
         
     }
@@ -69,7 +70,7 @@ export const login = async (req,res)=>{
             phone: user.phone,
         });
     } catch (error) {
-        console.log("Error in login controllers",error.message);
+        logger.error("Error in login controllers",error.message);
         res.status(500).json({ message: "Server error" });
         
     };
@@ -82,7 +83,7 @@ export const logout = (req,res)=>{
         res.cookie("jwt","",{maxAge: 0});
         res.status(200).json({ message: "Logged out successfully" });
     } catch (error) {
-        console.log("Error in login controllers",error.message);
+        logger.error("Error in login controllers",error.message);
         res.status(500).json({ message: "Server error" });
         
     }
@@ -94,7 +95,7 @@ export const checkAuth = (req,res)=>{
     try {
         res.status(200).json(req.user);
     } catch (error) {
-        console.log("Error in checkAuth controllers",error.message);
+        logger.error("Error in checkAuth controllers",error.message);
         res.status(500).json({ message: "Server error" });
         
     }

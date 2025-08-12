@@ -5,8 +5,8 @@ import { activityLists , activityListsById } from '../controllers/activity.contr
 
 const router = express.Router();
 
-+ router.get("/availableactivities", activityLists);
-+ router.get("/availableactivities/:id", activityListsById);
+ router.get("/availableactivities", activityLists);
+ router.get("/availableactivities/:id", activityListsById);
 
 export default router;
 

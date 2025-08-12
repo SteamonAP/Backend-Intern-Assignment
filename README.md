@@ -1,4 +1,4 @@
-# 🧠 Activity Booking API - Backend Developer Assignment (MeetX)
+# 🧠 Activity Booking API - Backend Developer Assignment 
 
 ## 📋 Overview
 

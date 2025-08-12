@@ -1,5 +1,6 @@
 import Booking from "../models/booking.model.js";
 import Activity from "../models/activity.model.js";
+import logger from "../config/logger.js";
 
 export const bookingAct = async (req, res) => {
   try {
@@ -39,7 +40,7 @@ export const bookingAct = async (req, res) => {
         booking,
       });
   } catch (error) {
-    console.log("Error in bookingAct", error.message);
+    logger.error("Error in bookingAct", error.message);
     res.status(500).json({ message: "Error in booking an activity" });
   }
 };
@@ -60,7 +61,7 @@ export const getBookings = async (req, res) => {
 
     res.status(200).json(bookings);
   } catch (error) {
-    console.log("Error getting Bookings: ", error.message);
+    logger.error("Error getting Bookings: ", error.message);
     res.status(500).json({ message: "Error fetching bookings" });
   }
 };
