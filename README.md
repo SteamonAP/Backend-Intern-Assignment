@@ -22,6 +22,7 @@ This is a fully functional REST API built with Node.js, Express, and MongoDB for
 ## 🔗 Live API URL
 
 👉 https://backend-intern-assignment-evo4.onrender.com
+> All APIs are prefixed with `/api`
 
 ---
 
