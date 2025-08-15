@@ -50,3 +50,46 @@
 {"level":"info","message":"Recieved GET request to /api/bookmyactivity/mybooking","service":"Booking-Api","timestamp":"2025-08-12T15:58:39.695Z"}
 {"level":"info","message":"Recieved POST request to /api/bookmyactivity/booking","service":"Booking-Api","timestamp":"2025-08-12T15:58:43.459Z"}
 {"level":"info","message":"Request body: {\"activityId\":\"681dfe76007e34b59050b830\"}","service":"Booking-Api","timestamp":"2025-08-12T15:58:43.460Z"}
+{"level":"info","message":"Database connected: ac-3hoxfyu-shard-00-02.c8dwhhe.mongodb.net","service":"Booking-Api","timestamp":"2025-08-15T05:14:20.150Z"}
+{"level":"info","message":"Server is running on port 3000","service":"Booking-Api","timestamp":"2025-08-15T05:14:20.159Z"}
+{"level":"info","message":"Database connected: ac-3hoxfyu-shard-00-00.c8dwhhe.mongodb.net","service":"Booking-Api","timestamp":"2025-08-15T05:29:04.156Z"}
+{"level":"info","message":"Server is running on port 3000","service":"Booking-Api","timestamp":"2025-08-15T05:29:04.162Z"}
+{"level":"info","message":"Database connected: ac-3hoxfyu-shard-00-00.c8dwhhe.mongodb.net","service":"Booking-Api","timestamp":"2025-08-15T05:29:06.798Z"}
+{"level":"info","message":"Server is running on port 3000","service":"Booking-Api","timestamp":"2025-08-15T05:29:06.805Z"}
+{"level":"info","message":"Database connected: ac-3hoxfyu-shard-00-00.c8dwhhe.mongodb.net","service":"Booking-Api","timestamp":"2025-08-15T05:29:09.721Z"}
+{"level":"info","message":"Server is running on port 3000","service":"Booking-Api","timestamp":"2025-08-15T05:29:09.726Z"}
+{"level":"info","message":"Database connected: ac-3hoxfyu-shard-00-00.c8dwhhe.mongodb.net","service":"Booking-Api","timestamp":"2025-08-15T05:29:28.725Z"}
+{"level":"info","message":"Server is running on port 3000","service":"Booking-Api","timestamp":"2025-08-15T05:29:28.731Z"}
+{"level":"info","message":"Database connected: ac-3hoxfyu-shard-00-00.c8dwhhe.mongodb.net","service":"Booking-Api","timestamp":"2025-08-15T05:29:36.028Z"}
+{"level":"info","message":"Server is running on port 3000","service":"Booking-Api","timestamp":"2025-08-15T05:29:36.035Z"}
+{"level":"info","message":"Recieved GET request to /api/activity/availableactivities","service":"Booking-Api","timestamp":"2025-08-15T06:09:46.198Z"}
+{"level":"info","message":"Database connected: ac-3hoxfyu-shard-00-00.c8dwhhe.mongodb.net","service":"Booking-Api","timestamp":"2025-08-15T06:10:59.527Z"}
+{"level":"info","message":"Server is running on port 3000","service":"Booking-Api","timestamp":"2025-08-15T06:10:59.533Z"}
+{"level":"info","message":"Recieved GET request to /api/activity/availableactivities","service":"Booking-Api","timestamp":"2025-08-15T06:11:01.772Z"}
+{"level":"info","message":"Database connected: ac-3hoxfyu-shard-00-00.c8dwhhe.mongodb.net","service":"Booking-Api","timestamp":"2025-08-15T06:11:17.831Z"}
+{"level":"info","message":"Server is running on port 3000","service":"Booking-Api","timestamp":"2025-08-15T06:11:17.836Z"}
+{"level":"info","message":"Recieved GET request to /api/activity/availableactivities","service":"Booking-Api","timestamp":"2025-08-15T06:11:20.119Z"}
+{"level":"info","message":"Database connected: ac-3hoxfyu-shard-00-00.c8dwhhe.mongodb.net","service":"Booking-Api","timestamp":"2025-08-15T06:51:55.296Z"}
+{"level":"info","message":"Server is running on port 3000","service":"Booking-Api","timestamp":"2025-08-15T06:51:55.302Z"}
+{"level":"info","message":"Recieved GET request to /api/bookmyactivity/bookmyactivity","service":"Booking-Api","timestamp":"2025-08-15T06:52:16.972Z"}
+{"level":"info","message":"Recieved GET request to /api/bookmyactivity/mybooking","service":"Booking-Api","timestamp":"2025-08-15T06:52:35.742Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"Booking-Api","timestamp":"2025-08-15T06:52:43.878Z"}
+{"level":"info","message":"Request body: {\"email\":\"amoghp7@gmail.com\"}","service":"Booking-Api","timestamp":"2025-08-15T06:52:43.879Z"}
+{"level":"info","message":"Recieved GET request to /api/bookmyactivity/mybooking","service":"Booking-Api","timestamp":"2025-08-15T06:52:47.868Z"}
+{"level":"info","message":"Database connected: ac-3hoxfyu-shard-00-00.c8dwhhe.mongodb.net","service":"Booking-Api","timestamp":"2025-08-15T08:09:04.216Z"}
+{"level":"info","message":"Server is running on port 3000","service":"Booking-Api","timestamp":"2025-08-15T08:09:04.222Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"Booking-Api","timestamp":"2025-08-15T08:09:09.926Z"}
+{"level":"info","message":"Request body: {\"email\":\"amoghp7@gmail.com\"}","service":"Booking-Api","timestamp":"2025-08-15T08:09:09.927Z"}
+{"level":"info","message":"Recieved GET request to /api/activity/availableactivities","service":"Booking-Api","timestamp":"2025-08-15T08:09:16.482Z"}
+{"level":"info","message":"Recieved GET request to /api/bookmyactivity/mybooking","service":"Booking-Api","timestamp":"2025-08-15T08:09:26.072Z"}
+{"level":"info","message":"Recieved POST request to /api/activity/availableactivities/681dfe76007e34b59050b832","service":"Booking-Api","timestamp":"2025-08-15T08:10:14.102Z"}
+{"level":"info","message":"Request body: {\"activityId\":\"681dfe76007e34b59050b832\"}","service":"Booking-Api","timestamp":"2025-08-15T08:10:14.102Z"}
+{"level":"info","message":"Recieved POST request to /api/bookmyactivity/booking","service":"Booking-Api","timestamp":"2025-08-15T08:11:05.107Z"}
+{"level":"info","message":"Request body: {\"activityId\":\"681dfe76007e34b59050b832\"}","service":"Booking-Api","timestamp":"2025-08-15T08:11:05.108Z"}
+{"level":"info","message":"Recieved GET request to /api/bookmyactivity/mybooking","service":"Booking-Api","timestamp":"2025-08-15T08:11:17.462Z"}
+{"level":"info","message":"Database connected: ac-3hoxfyu-shard-00-01.c8dwhhe.mongodb.net","service":"Booking-Api","timestamp":"2025-08-15T08:12:17.161Z"}
+{"level":"info","message":"Server is running on port 3000","service":"Booking-Api","timestamp":"2025-08-15T08:12:17.168Z"}
+{"level":"info","message":"Recieved GET request to /api/bookmyactivity/mybooking","service":"Booking-Api","timestamp":"2025-08-15T08:12:40.043Z"}
+{"level":"info","message":"Recieved DELETE request to /api/bookmyactivity/cancelbooking","service":"Booking-Api","timestamp":"2025-08-15T08:12:54.997Z"}
+{"level":"info","message":"Request body: {\"bookingId\":\"689eeb9a6bfc7c166c33b846\"}","service":"Booking-Api","timestamp":"2025-08-15T08:12:54.997Z"}
+{"level":"info","message":"Recieved GET request to /api/bookmyactivity/mybooking","service":"Booking-Api","timestamp":"2025-08-15T08:13:05.544Z"}

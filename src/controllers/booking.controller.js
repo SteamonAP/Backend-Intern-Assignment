@@ -33,12 +33,10 @@ export const bookingAct = async (req, res) => {
     await booking.save();
 
     await booking.populate("activity", "-__v -createdAt -updatedAt");
-    res
-      .status(201)
-      .json({
-        message: "You have successfully booked this activity!",
-        booking,
-      });
+    res.status(201).json({
+      message: "You have successfully booked this activity!",
+      booking,
+    });
   } catch (error) {
     logger.error("Error in bookingAct", error.message);
     res.status(500).json({ message: "Error in booking an activity" });
@@ -52,16 +50,43 @@ export const getBookings = async (req, res) => {
     const bookings = await Booking.find({ user })
       .select("-__v -createdAt -updatedAt")
       .populate("activity", "-__v -createdAt -updatedAt");
-      
-    if(!bookings || bookings.length === 0){
-        return res.status(404).json({message:"No bookings done yet !"});
-    }
-      
 
+    if (!bookings || bookings.length === 0) {
+      return res.status(404).json({ message: "No bookings done yet !" });
+    }
 
     res.status(200).json(bookings);
   } catch (error) {
     logger.error("Error getting Bookings: ", error.message);
     res.status(500).json({ message: "Error fetching bookings" });
+  }
+};
+
+export const cancelBooking = async (req, res) => {
+  try {
+    const userId = req.user._id;
+    const { bookingId } = req.body;
+
+    const booking = await Booking.findById(bookingId);
+
+    if (!booking) {
+      return res.status(404).json({ message: "Booking not found" });
+    }
+    if (booking.user.toString() !== userId.toString()) {
+      return res
+        .status(404)
+        .json({ message: "Not authorized to cancel this booking" });
+    }
+
+    await Booking.findByIdAndDelete(bookingId);
+
+    res
+      .status(200)
+      .json({ message: "Booking was cancelled successfully", booking });
+  } catch (error) {
+    logger.error("Error occured while cancelling your Booking", error.message);
+    res
+      .status(500)
+      .json({ message: "Error occured while cancelling your Booking" });
   }
 };

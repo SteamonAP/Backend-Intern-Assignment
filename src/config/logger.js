@@ -5,7 +5,7 @@ const logger = winston.createLogger({
   format: winston.format.combine(
     winston.format.timestamp(),
     winston.format.errors({ stack: true }),
-    winston.format.splat(),
+    winston.format.splat(),//can put %s or %d,Without splat(), those %s placeholders wouldn’t be processed
     winston.format.json()
   ),
   defaultMeta: { service: "Booking-Api" },
